@@ -65,3 +65,4 @@ else
        sudo ifconfig en1 up
    fi
 fi
+
