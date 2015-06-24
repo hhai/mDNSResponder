@@ -3,6 +3,7 @@ IS=`/sbin/ping -c 5 74.125.226.18 | grep -c "64 bytes"`
 if (test "$IS" -gt "2") then
        internet_conn="1"
 else
+#touch
    internet_conn="0"
    sleep 10
    AA=`/sbin/ping -c 5 74.125.226.18 | grep -c "64 bytes"`
